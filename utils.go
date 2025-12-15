@@ -42,7 +42,7 @@ func readRequest(reader *bufio.Reader) (string, []string, error) {
 
 		headers = append(headers, line)
 
-		if line == "\r\n" { // end of headers
+		if line == "\r\n" {
 			break
 		}
 	}
