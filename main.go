@@ -13,7 +13,7 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println("Mini NGINX listening on", cfg.ListenPort)
+	fmt.Println("Web Server listening on", cfg.ListenPort)
 
 	for {
 		conn, _ := ln.Accept()
