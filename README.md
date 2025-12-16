@@ -1,4 +1,4 @@
-# Mini Reverse Proxy & Static Web Server (Go)
+# Web Server in GO
 
 A minimal HTTP web server written in Go that supports static file serving and reverse proxying.
 
