@@ -2,6 +2,11 @@
 
 A web server written in Go that supports static file serving and reverse proxying.
 
+
+---
+
+![Architecture](static/arch.png)
+
 ---
 
 ## Features
